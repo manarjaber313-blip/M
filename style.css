@@ -1,15 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Segoe UI, Arial;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:segoe UI;Aril
 }
-
-body {
-  background: white;
-  color: black;
-  padding-top: 70px;
-  text-align: center;
+body{
+  background-color:white;
+  color:black;
+  padding-top:60px;
+  text-align:center;
 }
 
 nav {
@@ -18,51 +17,35 @@ nav {
   background: pink;
   width: 100%;
 }
-
-nav ul {
-  justify-content: center;
-  list-style: none;
-  gap: 200px;
-  display: flex;
+nav ul{
+  list-style:non;
+  display:flex;
+  gap:250px;
+  justify-content:center'
 }
-
 nav a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
+ color:white;
+  font-weight:bold;
+   text-decoration: none;
 }
-
-.table {
-  margin: 18px auto;
-  border: 4px solid grey;
-  border-collapse: collapse;
-  width: 50%;
+ 
+.table{
+  margin:18px auto;
+  border: 4px solid gray;
+  border-collapse:collapse;
+  width:50%;
+ 
 }
-
-.table th {
-  background-color: pink;
-  color: white;
-  border: 1px solid black;
+.table th{
+  background-color:pink;
+  color:white;
+  border:1px solid black;
 }
-
-.table td {
-  border: 1px solid black;
+.table td{
+  border:1px solid black;
 }
-
-.table img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}
-
-#logo {
-  width: 40%;
-}
-
-section {
-  margin-top: 60px;
-}
-
-footer {
-  margin-top: 30px;
+table img{
+  width:100px;
+  high:100px;
+  object-fit: cover; 
 }
